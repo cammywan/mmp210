@@ -18,6 +18,7 @@ function setup() {
     var p=470;
     var q =370;
     var r=275;
+    var s=1;
     
     var grey=color("#939598 ");
     var pink = color("#DB9595");
@@ -30,7 +31,7 @@ function setup() {
   
    fill(grey);  
     noStroke();
-    textSize(l);
+    textSize(s);
     text(x,g+n+n, e);
     textFont(z);
     
