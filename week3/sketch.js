@@ -31,7 +31,7 @@ function setup() {
   
    fill(grey);  
     noStroke();
-    textSize(s);
+    textSize(m);
     text(x,g+n+n, e);
     textFont(z); //"letter "C""
     
