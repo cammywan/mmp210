@@ -28,11 +28,11 @@ function setup() {
  
     createCanvas(a,a);
   
-   fill(grey);  
+    fill(grey);  
     noStroke();
-    textSize(s);
+    textSize(m);
     text(x,g+n+n, e);
-    textFont(z); //"letter "C""
+    textFont(z); //letter "C"
     
     triangle(c,c,c+g,d,c-g,d);
     triangle(c+g,c,c+g+g,d,c,d);
