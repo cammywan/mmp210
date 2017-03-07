@@ -4,7 +4,6 @@ function setup() {
 
 function draw() {
     var start=255;
-    var zero=0;
     var blue=color("#123456");
     var distance=50;
     var size=30;
