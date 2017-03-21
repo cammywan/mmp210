@@ -8,16 +8,25 @@ function draw() {
     var size=30;
 	var x=10;
 	var y=10;
-		var z = random(0,200);
-    var r,g,b;//variables
-	
-    background(green);
-	
+	var r,g,b;//variables
+	  background(green);
     if (frameCount % 40 == 0) {
       r = random(0,255);
 			g = random(0,100);
       b = random(100,255);
-}
+}	
+	textSize(20);
+        text("Cammy", x, y);    
+    x += 20;
+    if (x > width) {
+        x = 0;
+    }
+    if (x > width/2) {
+        y-=20;
+    } else {
+        y+=20;
+    }
+
 	  translate(mouseX, mouseY);
     noStroke();
     fill(r,g,b);
