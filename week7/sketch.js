@@ -16,11 +16,11 @@ function draw() {
 
 function drawWindow(x,y,ws,ld){
 	noStroke();
-			fill("yellow");
+			fill("lightpink");
 			rect(x,y,ws,ws); //top yellow windows
 	
 			noStroke();
-			fill("green");
+			fill("lightgrey");
 			rect(x,y+ws,ws,ws); //bottom green windows
 		
 			
