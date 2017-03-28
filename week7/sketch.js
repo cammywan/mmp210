@@ -8,7 +8,7 @@ function draw() {
 	var x=100, y=133;
 	for (var i=0; i<4;i++) {
 	drawWindow(x+200*i,y,100,20);
-	drawWindow(x+100*i,y+300,50,7);
+	drawWindow(x++100+100*i,y+300,50,7);
 	drawWindow(x+300*i,y+600,150,25);
 	}
 						
