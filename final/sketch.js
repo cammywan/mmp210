@@ -126,6 +126,7 @@ function mousePressed() {
 
 function mouseReleased(){
     press=false;
+   expandSound.stop();
 }
 
 function sizeBigger(){
