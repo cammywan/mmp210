@@ -1,5 +1,4 @@
 var clickSound;
-var expandSound;
 var mouseClickCount=0;
 var press=false;
 var changeColor=false;
@@ -39,7 +38,7 @@ var colorDifference=5;
 
 function preload(){
    clickSound = loadSound ("sound.wav");
-   expandSound = loadSound("expand.wav");}
+}
 
 function setup() {
     createCanvas(1200,600);
@@ -121,12 +120,12 @@ var innerCircle = function(x,y,sizeSmall,i){
 
 function mousePressed() {
     press=true;
-   expandSound.play();
+  
 }
 
 function mouseReleased(){
     press=false;
-   expandSound.stop();
+   
 }
 
 function sizeBigger(){
