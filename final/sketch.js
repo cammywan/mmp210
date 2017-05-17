@@ -1,4 +1,4 @@
-// var clickSound;
+var clickSound;
 var mouseClickCount=0;
 var press=false;
 var changeColor=false;
@@ -36,8 +36,8 @@ var mouseColor='#fc00af ';
 var backgroundColor='#FFD1CF';
 var colorDifference=5;
 
-// function preload(){
-    //clickSound = loadSound ("sound.wav");}
+function preload(){
+   clickSound = loadSound ("sound.wav");}
 
 function setup() {
     createCanvas(1200,600);
@@ -145,6 +145,7 @@ function sizeSmaller(){
 }
 
 function mouseClicked(){
+    clickSound.play();
     mouseClickCount++;
 }  //count how many times the mouse has clicked
 
